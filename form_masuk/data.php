@@ -51,7 +51,7 @@
 </div>
 <script>
   function hapus(id) {
-    if (confirm("Apakah akan menghapus data siswa!") == true) {
+    if (confirm("Apakah akan menghapus data surat masuk!") == true) {
       location.href = "form_masuk/proses.php?id="+id; 
     } else {
       
